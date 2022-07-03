@@ -1,0 +1,8 @@
+CREATE DATABASE db_LibraryManagement;
+
+CREATE TABLE db_LibraryManagement.tbl_publisher(
+    -> publisher_PublisherName VARCHAR(50) PRIMARY KEY NOT NULL,
+    -> publisher_PublisherAddress TEXT NOT NULL,
+    -> publisher_PublisherPhone VARCHAR(16) NOT NULL
+    -> );
+    
